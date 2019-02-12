@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetDataWorkspace>
+  <version>2.26.0.20</version>
+  <WSversion>10</WSversion>
+  <File>
+    <Name>E:\Python\TC-Python\@@experiences\2StatesModel\getdata\2001Chen&amp;Sundman-JPE631_H_1.jpg</Name>
+    <Width>996</Width>
+    <Height>938</Height>
+  </File>
+  <Line>
+    <Caption>Line #1</Caption>
+    <LineColor>2,2,2</LineColor>
+    <BkColor>254,254,254</BkColor>
+    <PtColor>220,70,220</PtColor>
+    <LineType>0</LineType>
+    <Points MF="9">1741,4414,2200,4135,2596,3892,3118,3568,4288,2821,5557,2029,6457,1471,7636,742,8518,202</Points>
+  </Line>
+  <CurrentLine>0</CurrentLine>
+  <Xmin MF="9">1453,7285,1.600000e+003</Xmin>
+  <Xmax MF="9">8572,7294,2.400000e+003</Xmax>
+  <Ymin MF="9">1453,7285,4.000000e+004</Ymin>
+  <Ymax MF="9">1453,184,1.000000e+005</Ymax>
+  <XScale>linear</XScale>
+  <YScale>linear</YScale>
+  <Position>402,-2</Position>
+  <Zoom>
+    <Scale>100.0</Scale>
+  </Zoom>
+  <Digitize>
+    <IgnorePixels>1</IgnorePixels>
+    <LineIDMethod>2</LineIDMethod>
+  </Digitize>
+  <AutoTrace>
+    <TraceDistance>8</TraceDistance>
+    <SmoothLines>1</SmoothLines>
+  </AutoTrace>
+  <DigitizeArea>
+    <LineOrArea>0</LineOrArea>
+    <RotateAngle>0.000000</RotateAngle>
+    <dx>8.000000</dx>
+  </DigitizeArea>
+  <GridSettings>
+    <ShowGrid>0</ShowGrid>
+    <AreaType>0</AreaType>
+    <dx>15.000000</dx>
+    <dy>15.000000</dy>
+  </GridSettings>
+</GetDataWorkspace>

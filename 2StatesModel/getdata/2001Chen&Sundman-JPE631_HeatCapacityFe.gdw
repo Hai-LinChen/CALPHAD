@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetDataWorkspace>
+  <version>2.26.0.20</version>
+  <WSversion>10</WSversion>
+  <File>
+    <Name>E:\Python\CALPHAD\2001Chen&amp;Sundman-JPE631_HeatCapacityFe.jpg</Name>
+    <Width>996</Width>
+    <Height>998</Height>
+  </File>
+  <Line>
+    <Caption>Line #1</Caption>
+    <LineColor>1,1,1</LineColor>
+    <BkColor>254,254,254</BkColor>
+    <PtColor>220,70,220</PtColor>
+    <LineType>0</LineType>
+    <Points MF="9">1309,7582,1318,7393,1390,5890,1444,5044,1489,4342,1516,3712,1525,2857,1534,2371,1552,3766,1561,4513</Points>
+    <Points MF="9">1597,4891,1651,4990,1786,4999,1948,4909,2173,4756,2380,4486,2560,4189,2677,3964,2803,3721,2938,3469</Points>
+    <Points MF="9">3082,3235,3244,3010,3469,2812,3676,2713,3955,2668,4117,2686,4297,2722,4522,2767,4810,2839,5035,2893</Points>
+    <Points MF="9">5323,2938,5512,2956,5719,2974,5980,2983,6277,2983,6574,2965,6880,2938,7213,2902,7528,2848,7753,2821</Points>
+    <Points MF="9">8167,2740,8500,2677,8779,2614</Points>
+  </Line>
+  <CurrentLine>0</CurrentLine>
+  <Xmin MF="9">1246,7762,0.000000e+000</Xmin>
+  <Xmax MF="9">8788,7771,5.000000e+003</Xmax>
+  <Ymin MF="9">1255,7762,0.000000e+000</Ymin>
+  <Ymax MF="9">1246,211,7.000000e+001</Ymax>
+  <XScale>linear</XScale>
+  <YScale>linear</YScale>
+  <Position>-253,-8</Position>
+  <Zoom>
+    <Scale>100.0</Scale>
+  </Zoom>
+  <Digitize>
+    <IgnorePixels>1</IgnorePixels>
+    <LineIDMethod>2</LineIDMethod>
+  </Digitize>
+  <AutoTrace>
+    <TraceDistance>8</TraceDistance>
+    <SmoothLines>1</SmoothLines>
+  </AutoTrace>
+  <DigitizeArea>
+    <LineOrArea>0</LineOrArea>
+    <RotateAngle>0.000000</RotateAngle>
+    <dx>8.000000</dx>
+  </DigitizeArea>
+  <GridSettings>
+    <ShowGrid>0</ShowGrid>
+    <AreaType>0</AreaType>
+    <dx>15.000000</dx>
+    <dy>15.000000</dy>
+  </GridSettings>
+</GetDataWorkspace>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetDataWorkspace>
+  <version>2.26.0.20</version>
+  <WSversion>10</WSversion>
+  <File>
+    <Name>E:\Python\TC-Python\@@experiences\2StatesModel\getdata\2001Chen&amp;Sundman-JPE631_H_2.jpg</Name>
+    <Width>996</Width>
+    <Height>944</Height>
+  </File>
+  <Line>
+    <Caption>Line #1</Caption>
+    <LineColor>2,2,2</LineColor>
+    <BkColor>254,254,254</BkColor>
+    <PtColor>220,70,220</PtColor>
+    <LineType>0</LineType>
+    <Points MF="9">1462,5287,1633,5287,1759,5251,1930,5188,2047,5116,2173,5026,2290,4909,2425,4837,2551,4738,2695,4666</Points>
+    <Points MF="9">2821,4594,2965,4513,3091,4441,3217,4360,3370,4261,3496,4189,3640,4108,3748,4036,3901,3955,4036,3856</Points>
+    <Points MF="9">4162,3775,4279,3703,4423,3604,4549,3532,4657,3451,4801,3343,4927,3253,5035,3181,5170,3091,5296,2983</Points>
+    <Points MF="9">5440,2893,5548,2803,5665,2695,5791,2605,5926,2497,6025,2407,6142,2308,6259,2191,6385,2101,6493,2002</Points>
+    <Points MF="9">6610,1885,6718,1795,6826,1678,6952,1570,7042,1471,7159,1363,7276,1246,7384,1129,7501,1021,7591,904</Points>
+    <Points MF="9">7708,796,7807,697,7915,580,8023,463,8149,346,8239,229</Points>
+  </Line>
+  <CurrentLine>0</CurrentLine>
+  <Xmin MF="9">1417,7339,0.000000e+000</Xmin>
+  <Xmax MF="9">8554,7339,1.600000e+003</Xmax>
+  <Ymin MF="9">1417,7339,-1.000000e+004</Ymin>
+  <Ymax MF="9">1417,193,6.000000e+004</Ymax>
+  <XScale>linear</XScale>
+  <YScale>linear</YScale>
+  <Position>-29,-3</Position>
+  <Zoom>
+    <Scale>150.0</Scale>
+  </Zoom>
+  <Digitize>
+    <IgnorePixels>1</IgnorePixels>
+    <LineIDMethod>2</LineIDMethod>
+  </Digitize>
+  <AutoTrace>
+    <TraceDistance>8</TraceDistance>
+    <SmoothLines>1</SmoothLines>
+  </AutoTrace>
+  <DigitizeArea>
+    <LineOrArea>0</LineOrArea>
+    <RotateAngle>0.000000</RotateAngle>
+    <dx>8.000000</dx>
+  </DigitizeArea>
+  <GridSettings>
+    <ShowGrid>0</ShowGrid>
+    <AreaType>0</AreaType>
+    <dx>15.000000</dx>
+    <dy>15.000000</dy>
+  </GridSettings>
+</GetDataWorkspace>
