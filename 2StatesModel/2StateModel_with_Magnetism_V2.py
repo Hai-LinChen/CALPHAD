@@ -338,23 +338,23 @@ def main():
     #  |               + _ _ _ _ _ _ _ _ _ _       /
     #
     #  integral of Cp_mgn/T gives S_mgn, which becomes a constant while T is sufficiently large
-    #  integral of S_mgn give G_mgn, which linearly depends on temperature when T is sufficiently large
-    #
-    #  SMgn(infinite) is an integration of Cp_Mgn in the interval of (0, oo)
-    #  GMDO(infinite) is actually an integration of S_Mgn(infinite) in the interval of (0, T)
+    #  SMgn(infinite) is an integration of Cp_Mgn/T in the interval of (0, oo)
+    #  HMgn(infinite) is an integration of Cp_Mgn in the interval of (0, oo)
+    #  GMDO(infinite) can be obtained from SMgn(inf) and HMgn(inf)
+    #       GMDO(inf) = HMgn(inf) + integration of S_Mgn(infinite) over (0, T)
     #
     #  This might be very much confusing. One can have a better understanding with the aid of the following figure.
     #  Naturally, one can use Gferromgn as reference, then GMDO, which can be calculated from Cp_Mgn, is added to it.
     #  At low temperatures, GMDO is close to 0, as magnetic state is stable. Around TC, GMDO starts to be considerable.
-    #  At sufficiently high temperatures, GMDO becomes a straight line. This can be accepted without problem.
+    #  Above T*, GMDO becomes a straight line. This can be accepted without problem.
     #
     #  Now, one may want to use Gparamgn as reference and then evaluate GMO (order), instead of GMDO (disorder). How?
     #  Well, there is a straight line of GMDO. Use it, i.e. GMDO(infinite), as the reference. And extrapolate it down
-    #  down to RT (SER) or 0 K. Note that GMDO(inf) is an integation over (0, T) of an integration over (0, oo)
-    #  of magnetic heat capacity, with a minus sign. One may say GMDO(infinite) is kind of arbitrary.
+    #  down to RT (SER) or 0 K. One may say GMDO(infinite) is kind of arbitrary.
     #  After such a conversion, however, GMD seems to be very meaningful, since it reduces from a maximum value at 0 K
-    #  to zero at temperatures above TC, where the matarial is paramagnetic. Probably there is a typo or mistake in the
+    #  to zero at temperatures above T*, where the matarial is paramagnetic. Probably there is a typo or mistake in the
     #  publications.
+
     Fe.set_force_paramagn(False_or_True=False)
     fig2 = plt.figure(constrained_layout=True)
     gs2 = GridSpec(nrows=1, ncols=2, figure = fig2)
